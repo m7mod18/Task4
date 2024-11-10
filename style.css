@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-}
+} 
 .father{
 width: 1500px ;
 height: 1500px; 
@@ -9,7 +9,33 @@ display: flex;
 flex-wrap: wrap; 
  justify-content: center;
  flex-direction: column;
-
+    gap: 30px; 
+    padding: 20px;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap; 
+     justify-content: center;
+     flex-direction: column;
+        background-color: darkgreen;
+        gap: 30px; 
+        padding: 20px;
+}
+.second{
+    display: flex;
+flex-wrap: wrap; 
+ justify-content: center;
+ flex-direction: column;
+    background-color: darkgreen;
+    gap: 30px; 
+    padding: 20px;
+}
+.third{
+    display: flex;
+flex-wrap: wrap; 
+ justify-content: center;
+ flex-direction: column;
+    background-color: darkgreen;
     gap: 30px; 
     padding: 20px;
 }
